@@ -1,22 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import Nav from "./components/Nav";
+import ItemList from "./components/ItemList";
+const app = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-ligth shadow">
-    <div class="container">
-      <a class="navbar-brand">JoyShop</a>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <div class="navbar-nav">
-          <a class="nav-link">Anillos</a>
-          <a class="nav-link" >Aros</a>
-          <a class="nav-link" >Pulseras</a>
-          <a class="nav-link" >Collares</a>
-        </div>
-      </div>
-    </div>
-  </nav>
+   <>
+   <Nav/>
+   <ItemList greeting= "Tus Joyas preferidas en JoyShop"/>
+   </>
   );
 }
-
-export default App;
+export default app;
