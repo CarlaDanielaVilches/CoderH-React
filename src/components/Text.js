@@ -1,8 +1,8 @@
-const ItemList = (props) => {
+const Text = (props) => {
  return(
     <>
     <p>{props.greeting}</p>
     </>
  )
 }
-export default ItemList;
+export default Text;

@@ -4,3 +4,12 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight:bolder;
 }
+.carrito{
+  margin: 15px;
+}
+.btn{
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin: 9px;
+}

@@ -15,7 +15,8 @@ const Nav = () =>{
         </div>
       </div>
     </div>
-    <BsCartFill />
+    <div className="carrito"><BsCartFill /></div>
+    
   </nav>
   
   </>

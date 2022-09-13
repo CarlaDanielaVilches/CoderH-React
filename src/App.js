@@ -1,10 +1,12 @@
 import Nav from "./components/Nav";
-import ItemList from "./components/ItemList";
+import Text from "./components/Text";
+import Contador from "./components/Contador"
 const app = () => {
   return (
    <>
    <Nav/>
-   <ItemList greeting= "Tus Joyas preferidas en JoyShop"/>
+   <Text greeting= "Tus Joyas preferidas en JoyShop"/>
+   <Contador inicial={1} stock={5}/>
    </>
   );
 }
